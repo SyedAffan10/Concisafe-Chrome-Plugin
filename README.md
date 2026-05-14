@@ -21,7 +21,7 @@ ConciSafe is a Chrome extension powered by AI that helps detect and filter harmf
 ## Project Structure
 
 ```
-ConciSafe_Product/
+Concisafe-Chrome-Plugin/
 ├── plugin/                          # Chrome extension files
 │   ├── manifest.json               # Extension configuration
 │   ├── popup.html                  # Extension popup UI
@@ -32,7 +32,6 @@ ConciSafe_Product/
 │   ├── app.py                      # Flask backend API
 │   ├── requirements.txt            # Python dependencies
 │   └── jquery.min.js               # jQuery library
-├── huggingface_models.txt          # List of Hugging Face models used
 └── README.md                       # This file
 ```
 
