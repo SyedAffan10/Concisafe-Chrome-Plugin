@@ -4,6 +4,13 @@
 
 ConciSafe is a Chrome extension powered by AI that helps detect and filter harmful content online, including hate speech and toxic comments. It integrates with Hugging Face pre-trained models for real-time content moderation.
 
+## 📹 Demo Video
+
+<video width="100%" controls>
+  <source src="Demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Features
 
 - 🛡️ **Real-time Content Detection** - Automatically identifies hate speech and toxic content on web pages
