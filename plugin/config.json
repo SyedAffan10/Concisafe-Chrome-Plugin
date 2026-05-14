@@ -1,0 +1,36 @@
+{
+    "platforms": [
+       {
+            "name" : "facebook",
+            "selectors" : "data-ad-comet-preview='message'"
+        },
+        {
+            "name" : "twitter",
+            "selectors" : [
+                {
+                  "main" : "[data-testid='tweet']",
+                  "description" : "[data-testid='tweetText']",
+                  "image" : "[data-testid='tweetText']",
+                  "thingsToHide": [".css-1dbjc4n .r-1ssbvtb .r-1s2bzr4"],
+                  "showMessage" : "[data-testid='tweetText']", 
+                  "parentExists": true,
+                  "idSelector" : "[data-testid='tweetText']"
+                }
+            ]
+        },
+        {
+            "name" : "linkedin",
+            "selectors" : [
+              {
+                "main" : ".feed-shared-update-v2",
+                "description" : ".feed-shared-update-v2__description-wrapper",
+                "image" : ".feed-shared-update-v2__content",
+                "thingsToHide": [".feed-shared-update-v2__content"],
+                "showMessage" : ".feed-shared-update-v2__description-wrapper > .feed-shared-inline-show-more-text"
+              }
+                
+            ]
+                
+        }
+    ]
+}
