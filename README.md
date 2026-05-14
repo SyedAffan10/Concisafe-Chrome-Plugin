@@ -6,10 +6,9 @@ ConciSafe is a Chrome extension powered by AI that helps detect and filter harmf
 
 ## 📹 Demo Video
 
-<video width="100%" controls>
-  <source src="./Demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Watch Demo Video](./Demo.mp4)
+
+> If the video does not preview directly on GitHub, click the link above to open/download it.
 
 ## Features
 
